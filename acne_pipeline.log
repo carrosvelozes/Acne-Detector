@@ -1,0 +1,431 @@
+2025-05-31 15:44:56,758 - INFO - Verificando requisitos...
+2025-05-31 15:44:56,759 - INFO - OK: Todos os requisitos verificados
+2025-05-31 15:44:56,760 - INFO - === ETAPA 1: ANOTAÇÃO MANUAL ===
+2025-05-31 15:44:56,760 - INFO - Vamos anotar 10 imagens manualmente
+2025-05-31 15:47:25,640 - INFO - === FERRAMENTA DE ANOTAÇÃO MANUAL ===
+2025-05-31 15:47:25,640 - INFO - Use o mouse para marcar regiões com espinhas
+2025-05-31 15:47:25,641 - INFO - Anotando 10 imagens
+2025-05-31 15:47:25,685 - INFO - Imagem 1/10: /1/1.jpg
+2025-05-31 15:47:30,406 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:47:31,958 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:47:37,112 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:47:37,112 - INFO - Imagem 2/10: /1/2.jpg
+2025-05-31 15:47:38,725 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:47:39,870 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:47:40,196 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:47:40,196 - INFO - Imagem 3/10: /1/3.jpg
+2025-05-31 15:47:41,530 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:47:42,865 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:47:43,063 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:47:43,063 - INFO - Imagem 4/10: /10/1.jpg
+2025-05-31 15:47:44,061 - INFO - Anotação salva: 0 bounding boxes
+2025-05-31 15:47:44,061 - INFO - Imagem 5/10: /10/2.jpg
+2025-05-31 15:47:45,667 - INFO - Anotação salva: 0 bounding boxes
+2025-05-31 15:47:45,668 - INFO - Progresso salvo: 5 anotações
+2025-05-31 15:47:45,668 - INFO - Imagem 6/10: /10/3.jpg
+2025-05-31 15:47:47,139 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:47:47,934 - INFO - Anotação salva: 1 bounding boxes
+2025-05-31 15:47:47,935 - INFO - Imagem 7/10: /100/1.jpg
+2025-05-31 15:47:50,303 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:47:51,286 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:47:52,883 - INFO - Bounding box adicionado: 3 total
+2025-05-31 15:47:53,928 - INFO - Anotação salva: 3 bounding boxes
+2025-05-31 15:47:53,929 - INFO - Imagem 8/10: /100/2.jpg
+2025-05-31 15:47:55,779 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:47:57,069 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:47:58,348 - INFO - Bounding box adicionado: 3 total
+2025-05-31 15:47:59,453 - INFO - Bounding box adicionado: 4 total
+2025-05-31 15:47:59,685 - INFO - Anotação salva: 4 bounding boxes
+2025-05-31 15:47:59,686 - INFO - Imagem 9/10: /100/3.jpg
+2025-05-31 15:48:01,153 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:48:02,715 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:48:03,229 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:48:03,229 - INFO - Imagem 10/10: /101/1.jpg
+2025-05-31 15:48:05,196 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:48:07,286 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:48:07,686 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:48:07,687 - INFO - Progresso salvo: 10 anotações
+2025-05-31 15:48:07,700 - INFO - Anotação concluída! Total: 10 imagens anotadas
+2025-05-31 15:48:07,702 - INFO - Criando dataset YOLO...
+2025-05-31 15:48:07,706 - INFO - Processando train: 5 imagens
+2025-05-31 15:48:07,723 - INFO - Processando val: 1 imagens
+2025-05-31 15:48:07,728 - INFO - Processando test: 2 imagens
+2025-05-31 15:48:07,797 - INFO - Dataset YOLO criado:
+2025-05-31 15:48:07,798 - INFO - - Treino: 5 imagens
+2025-05-31 15:48:07,798 - INFO - - Validação: 1 imagens
+2025-05-31 15:48:07,798 - INFO - - Teste: 2 imagens
+2025-05-31 15:48:07,798 - INFO - - Configuração: manual_annotations\yolo_dataset\acne_config.yaml
+2025-05-31 15:48:07,799 - INFO - ✅ Etapa 1 concluída:
+2025-05-31 15:48:07,799 - INFO -    - 10 imagens processadas
+2025-05-31 15:48:07,799 - INFO -    - 8 imagens com anotações
+2025-05-31 15:48:07,799 - INFO -    - 18 acnes marcadas
+2025-05-31 15:48:07,799 - INFO -    - Dataset YOLO criado: manual_annotations\yolo_dataset\acne_config.yaml
+2025-05-31 15:48:07,799 - INFO - === ETAPA 2: TREINAMENTO DO MODELO ===
+2025-05-31 15:48:13,937 - INFO - generated new fontManager
+2025-05-31 15:48:16,429 - INFO - Usando device: cpu
+2025-05-31 15:48:16,429 - INFO - Iniciando treinamento com 50 épocas...
+2025-05-31 15:48:16,430 - INFO - Device: cpu
+2025-05-31 15:48:16,430 - INFO - Iniciando treinamento do YOLOv8 com anotações manuais...
+2025-05-31 15:48:16,463 - INFO - Iniciando treinamento com 50 épocas...
+2025-05-31 15:48:16,518 - ERROR - Erro durante treinamento: '[31m[1mmulti_scale[0m' is not a valid YOLO argument. Similar arguments are i.e. ['scale=0.5'].
+
+    Arguments received: ['yolo', '--annotate', '10', '--epochs', '50']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ('detect', 'segment', 'classify', 'pose')
+                MODE (required) is one of ('train', 'val', 'predict', 'export', 'track', 'benchmark')
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco128.yaml model=yolov8n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolov8n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolov8n.pt data=coco128.yaml batch=1 imgsz=640
+
+    4. Export a YOLOv8n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolov8n-cls.pt format=onnx imgsz=224,128
+
+    5. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+
+    Docs: https://docs.ultralytics.com
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-05-31 15:48:16,520 - ERROR - ERRO no treinamento: '[31m[1mmulti_scale[0m' is not a valid YOLO argument. Similar arguments are i.e. ['scale=0.5'].
+
+    Arguments received: ['yolo', '--annotate', '10', '--epochs', '50']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ('detect', 'segment', 'classify', 'pose')
+                MODE (required) is one of ('train', 'val', 'predict', 'export', 'track', 'benchmark')
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco128.yaml model=yolov8n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolov8n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolov8n.pt data=coco128.yaml batch=1 imgsz=640
+
+    4. Export a YOLOv8n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolov8n-cls.pt format=onnx imgsz=224,128
+
+    5. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+
+    Docs: https://docs.ultralytics.com
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-05-31 15:48:16,524 - ERROR - Pipeline interrompido na etapa de treinamento
+2025-05-31 15:48:46,493 - INFO - Verificando requisitos...
+2025-05-31 15:48:46,494 - INFO - OK: Todos os requisitos verificados
+2025-05-31 15:48:46,495 - INFO - Pulando etapa de anotação
+2025-05-31 15:48:46,495 - INFO - === ETAPA 2: TREINAMENTO DO MODELO ===
+2025-05-31 15:48:51,823 - INFO - Usando device: cpu
+2025-05-31 15:48:51,823 - INFO - Iniciando treinamento com 30 épocas...
+2025-05-31 15:48:51,823 - INFO - Device: cpu
+2025-05-31 15:48:51,824 - INFO - Iniciando treinamento do YOLOv8 com anotações manuais...
+2025-05-31 15:48:51,856 - INFO - Iniciando treinamento com 30 épocas...
+2025-05-31 15:50:44,911 - INFO - Treinamento concluído com sucesso!
+2025-05-31 15:50:44,911 - INFO - Métricas finais: {'mAP50': 0.0028060076142131978, 'mAP50-95': 0.0010380982190484383, 'precision': 0.0033333333333333335, 'recall': 0.3333333333333333}
+2025-05-31 15:50:44,944 - INFO - Melhor modelo carregado: trained_model\acne_model\weights\best.pt
+2025-05-31 15:50:44,952 - INFO - Avaliando modelo...
+2025-05-31 15:50:48,060 - INFO - Métricas de avaliação:
+2025-05-31 15:50:48,061 - INFO - - mAP50: 0.0000
+2025-05-31 15:50:48,061 - INFO - - mAP50-95: 0.0000
+2025-05-31 15:50:48,061 - INFO - - precision: 0.0000
+2025-05-31 15:50:48,061 - INFO - - recall: 0.0000
+2025-05-31 15:50:48,062 - INFO - - f1_score: 0.0000
+2025-05-31 15:50:48,062 - INFO - ✅ Etapa 2 concluída:
+2025-05-31 15:50:48,063 - INFO -    - Modelo salvo: trained_model\acne_model\weights\best.pt
+2025-05-31 15:50:48,063 - INFO -    - mAP@0.5: 0.0000
+2025-05-31 15:50:48,063 - INFO -    - Precision: 0.0000
+2025-05-31 15:50:48,063 - INFO -    - Recall: 0.0000
+2025-05-31 15:50:48,064 - INFO - === ETAPA 3: APLICAÇÃO DO MODELO ===
+2025-05-31 15:50:48,069 - INFO - Carregando modelo: trained_model/acne_model/weights/best.pt
+2025-05-31 15:50:48,102 - INFO - Modelo carregado. 687 imagens para processar
+2025-05-31 15:50:48,102 - INFO - Processando 687 imagens...
+2025-05-31 15:50:48,103 - INFO - Threshold de confiança: 0.25
+2025-05-31 15:50:48,103 - INFO - Processando imagens com threshold de confiança: 0.25
+2025-05-31 15:51:18,792 - WARNING - 
+Pipeline interrompido pelo usuário
+2025-05-31 15:53:31,169 - INFO - Verificando requisitos...
+2025-05-31 15:53:31,170 - INFO - OK: Todos os requisitos verificados
+2025-05-31 15:53:31,170 - INFO - === ETAPA 1: ANOTAÇÃO MANUAL ===
+2025-05-31 15:53:31,170 - INFO - Vamos anotar 30 imagens manualmente
+2025-05-31 15:55:29,086 - INFO - === FERRAMENTA DE ANOTAÇÃO MANUAL ===
+2025-05-31 15:55:29,087 - INFO - Use o mouse para marcar regiões com espinhas
+2025-05-31 15:55:29,087 - INFO - Carregadas 10 anotações existentes
+2025-05-31 15:55:29,088 - INFO - Anotando 30 imagens
+2025-05-31 15:55:29,114 - INFO - Imagem 1/30: /1/1.jpg
+2025-05-31 15:55:29,114 - INFO - Imagem já anotada com 2 bounding boxes
+2025-05-31 15:55:34,715 - INFO - Verificando requisitos...
+2025-05-31 15:55:34,716 - INFO - OK: Todos os requisitos verificados
+2025-05-31 15:55:34,717 - INFO - === ETAPA 1: ANOTAÇÃO MANUAL ===
+2025-05-31 15:55:34,717 - INFO - Vamos anotar 30 imagens manualmente
+2025-05-31 15:55:49,275 - INFO - === FERRAMENTA DE ANOTAÇÃO MANUAL ===
+2025-05-31 15:55:49,275 - INFO - Use o mouse para marcar regiões com espinhas
+2025-05-31 15:55:49,276 - INFO - Carregadas 10 anotações existentes
+2025-05-31 15:55:49,276 - INFO - Anotando 30 imagens
+2025-05-31 15:55:49,296 - INFO - Imagem 1/30: /1/1.jpg
+2025-05-31 15:55:49,296 - INFO - Imagem já anotada com 2 bounding boxes
+2025-05-31 15:57:56,630 - INFO - Verificando requisitos...
+2025-05-31 15:57:56,631 - INFO - OK: Todos os requisitos verificados
+2025-05-31 15:57:56,632 - INFO - === ETAPA 1: ANOTAÇÃO MANUAL ===
+2025-05-31 15:57:56,632 - INFO - Vamos anotar 5 imagens manualmente
+2025-05-31 15:58:05,769 - INFO - Verificando requisitos...
+2025-05-31 15:58:05,770 - INFO - OK: Todos os requisitos verificados
+2025-05-31 15:58:05,770 - INFO - === ETAPA 1: ANOTAÇÃO MANUAL ===
+2025-05-31 15:58:05,770 - INFO - Vamos anotar 30 imagens manualmente
+2025-05-31 15:58:07,420 - INFO - === FERRAMENTA DE ANOTAÇÃO MANUAL ===
+2025-05-31 15:58:07,420 - INFO - Use o mouse para marcar regiões com espinhas
+2025-05-31 15:58:07,421 - INFO - Carregadas 10 anotações existentes
+2025-05-31 15:58:07,421 - INFO - Anotando 30 imagens
+2025-05-31 15:58:07,442 - INFO - Imagem 1/30: /1/1.jpg
+2025-05-31 15:58:07,531 - INFO - Imagem redimensionada para 450x800
+2025-05-31 15:58:07,531 - INFO - Imagem já anotada com 2 bounding boxes
+2025-05-31 15:58:15,016 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:58:15,016 - INFO - Imagem 2/30: /1/2.jpg
+2025-05-31 15:58:15,103 - INFO - Imagem redimensionada para 450x800
+2025-05-31 15:58:15,104 - INFO - Imagem já anotada com 2 bounding boxes
+2025-05-31 15:58:17,211 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:58:17,211 - INFO - Imagem 3/30: /1/3.jpg
+2025-05-31 15:58:17,294 - INFO - Imagem redimensionada para 450x800
+2025-05-31 15:58:17,294 - INFO - Imagem já anotada com 2 bounding boxes
+2025-05-31 15:58:17,785 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:58:17,785 - INFO - Imagem 4/30: /10/1.jpg
+2025-05-31 15:58:17,911 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:58:17,912 - INFO - Imagem já anotada com 0 bounding boxes
+2025-05-31 15:58:18,747 - INFO - Anotação salva: 0 bounding boxes
+2025-05-31 15:58:18,747 - INFO - Imagem 5/30: /10/2.jpg
+2025-05-31 15:58:18,874 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:58:18,875 - INFO - Imagem já anotada com 0 bounding boxes
+2025-05-31 15:58:20,175 - INFO - Anotação salva: 0 bounding boxes
+2025-05-31 15:58:20,176 - INFO - Progresso salvo: 10 anotações
+2025-05-31 15:58:20,177 - INFO - Imagem 6/30: /10/3.jpg
+2025-05-31 15:58:20,311 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:58:20,312 - INFO - Imagem já anotada com 1 bounding boxes
+2025-05-31 15:58:21,151 - INFO - Anotação salva: 1 bounding boxes
+2025-05-31 15:58:21,152 - INFO - Imagem 7/30: /100/1.jpg
+2025-05-31 15:58:21,243 - INFO - Imagem redimensionada para 600x799
+2025-05-31 15:58:21,243 - INFO - Imagem já anotada com 3 bounding boxes
+2025-05-31 15:58:21,804 - INFO - Anotação salva: 3 bounding boxes
+2025-05-31 15:58:21,804 - INFO - Imagem 8/30: /100/2.jpg
+2025-05-31 15:58:21,893 - INFO - Imagem redimensionada para 600x799
+2025-05-31 15:58:21,893 - INFO - Imagem já anotada com 4 bounding boxes
+2025-05-31 15:58:22,210 - INFO - Anotação salva: 4 bounding boxes
+2025-05-31 15:58:22,210 - INFO - Imagem 9/30: /100/3.jpg
+2025-05-31 15:58:22,299 - INFO - Imagem redimensionada para 600x799
+2025-05-31 15:58:22,299 - INFO - Imagem já anotada com 2 bounding boxes
+2025-05-31 15:58:22,738 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:58:22,738 - INFO - Imagem 10/30: /101/1.jpg
+2025-05-31 15:58:22,843 - INFO - Imagem redimensionada para 600x799
+2025-05-31 15:58:22,844 - INFO - Imagem já anotada com 2 bounding boxes
+2025-05-31 15:58:26,098 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:58:26,099 - INFO - Progresso salvo: 10 anotações
+2025-05-31 15:58:26,100 - INFO - Imagem 11/30: /101/2.jpg
+2025-05-31 15:58:26,194 - INFO - Imagem redimensionada para 600x799
+2025-05-31 15:58:28,316 - INFO - Anotação salva: 0 bounding boxes
+2025-05-31 15:58:28,316 - INFO - Imagem 12/30: /101/3.jpg
+2025-05-31 15:58:28,400 - INFO - Imagem redimensionada para 600x799
+2025-05-31 15:58:29,310 - INFO - Anotação salva: 0 bounding boxes
+2025-05-31 15:58:29,310 - INFO - Imagem 13/30: /102/1.jpg
+2025-05-31 15:58:29,438 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:58:31,235 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:58:32,026 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:58:33,190 - INFO - Bounding box adicionado: 3 total
+2025-05-31 15:58:34,276 - INFO - Bounding box adicionado: 4 total
+2025-05-31 15:58:35,104 - INFO - Anotação salva: 4 bounding boxes
+2025-05-31 15:58:35,104 - INFO - Imagem 14/30: /102/2.jpg
+2025-05-31 15:58:35,237 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:58:38,631 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:58:38,880 - INFO - Anotação salva: 1 bounding boxes
+2025-05-31 15:58:38,880 - INFO - Imagem 15/30: /102/3.jpg
+2025-05-31 15:58:39,008 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:58:40,296 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:58:41,228 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:58:42,661 - INFO - Bounding box adicionado: 3 total
+2025-05-31 15:58:43,360 - INFO - Bounding box adicionado: 4 total
+2025-05-31 15:58:44,331 - INFO - Bounding box adicionado: 5 total
+2025-05-31 15:58:46,265 - INFO - Bounding box adicionado: 6 total
+2025-05-31 15:58:47,075 - INFO - Bounding box adicionado: 7 total
+2025-05-31 15:58:47,990 - INFO - Bounding box adicionado: 8 total
+2025-05-31 15:58:49,077 - INFO - Bounding box adicionado: 9 total
+2025-05-31 15:58:49,806 - INFO - Anotação salva: 9 bounding boxes
+2025-05-31 15:58:49,807 - INFO - Progresso salvo: 15 anotações
+2025-05-31 15:58:49,808 - INFO - Imagem 16/30: /103/1.jpg
+2025-05-31 15:58:49,893 - INFO - Imagem redimensionada para 600x799
+2025-05-31 15:58:51,592 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:58:52,555 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:58:52,961 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:58:52,962 - INFO - Imagem 17/30: /103/2.jpg
+2025-05-31 15:58:53,048 - INFO - Imagem redimensionada para 600x799
+2025-05-31 15:58:55,373 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:58:56,476 - INFO - Anotação salva: 1 bounding boxes
+2025-05-31 15:58:56,476 - INFO - Imagem 18/30: /103/3.jpg
+2025-05-31 15:58:56,567 - INFO - Imagem redimensionada para 600x799
+2025-05-31 15:58:58,606 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:58:59,916 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:59:00,786 - INFO - Bounding box adicionado: 3 total
+2025-05-31 15:59:01,802 - INFO - Bounding box adicionado: 4 total
+2025-05-31 15:59:02,641 - INFO - Anotação salva: 4 bounding boxes
+2025-05-31 15:59:02,641 - INFO - Imagem 19/30: /104/1.jpg
+2025-05-31 15:59:02,777 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:59:04,600 - INFO - Anotação salva: 0 bounding boxes
+2025-05-31 15:59:04,600 - INFO - Imagem 20/30: /104/2.jpg
+2025-05-31 15:59:04,728 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:59:06,591 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:59:07,214 - INFO - Anotação salva: 1 bounding boxes
+2025-05-31 15:59:07,215 - INFO - Progresso salvo: 20 anotações
+2025-05-31 15:59:07,216 - INFO - Imagem 21/30: /104/3.jpg
+2025-05-31 15:59:07,349 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:59:09,217 - INFO - Anotação salva: 0 bounding boxes
+2025-05-31 15:59:09,217 - INFO - Imagem 22/30: /105/1.jpg
+2025-05-31 15:59:09,284 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:59:10,878 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:59:12,466 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:59:14,139 - INFO - Bounding box adicionado: 3 total
+2025-05-31 15:59:15,287 - INFO - Bounding box adicionado: 4 total
+2025-05-31 15:59:15,707 - INFO - Anotação salva: 4 bounding boxes
+2025-05-31 15:59:15,707 - INFO - Imagem 23/30: /105/2.jpg
+2025-05-31 15:59:15,775 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:59:16,748 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:59:17,728 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:59:18,612 - INFO - Bounding box adicionado: 3 total
+2025-05-31 15:59:19,342 - INFO - Anotação salva: 3 bounding boxes
+2025-05-31 15:59:19,342 - INFO - Imagem 24/30: /105/3.jpg
+2025-05-31 15:59:19,411 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:59:20,818 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:59:22,121 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:59:22,730 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:59:22,730 - INFO - Imagem 25/30: /106/1.jpg
+2025-05-31 15:59:22,795 - INFO - Imagem redimensionada para 360x800
+2025-05-31 15:59:23,524 - INFO - Anotação salva: 0 bounding boxes
+2025-05-31 15:59:23,526 - INFO - Progresso salvo: 25 anotações
+2025-05-31 15:59:23,527 - INFO - Imagem 26/30: /106/2.jpg
+2025-05-31 15:59:23,590 - INFO - Imagem redimensionada para 360x800
+2025-05-31 15:59:26,587 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:59:26,758 - INFO - Anotação salva: 1 bounding boxes
+2025-05-31 15:59:26,758 - INFO - Imagem 27/30: /106/3.jpg
+2025-05-31 15:59:26,822 - INFO - Imagem redimensionada para 360x800
+2025-05-31 15:59:28,469 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:59:29,683 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:59:31,253 - INFO - Bounding box adicionado: 3 total
+2025-05-31 15:59:31,470 - INFO - Anotação salva: 3 bounding boxes
+2025-05-31 15:59:31,470 - INFO - Imagem 28/30: /107/1.jpg
+2025-05-31 15:59:31,684 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:59:33,713 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:59:36,224 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:59:36,629 - INFO - Anotação salva: 2 bounding boxes
+2025-05-31 15:59:36,629 - INFO - Imagem 29/30: /107/2.jpg
+2025-05-31 15:59:36,841 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:59:38,294 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:59:39,038 - INFO - Bounding box adicionado: 2 total
+2025-05-31 15:59:41,216 - INFO - Bounding box adicionado: 3 total
+2025-05-31 15:59:42,212 - INFO - Bounding box adicionado: 4 total
+2025-05-31 15:59:43,178 - INFO - Bounding box adicionado: 5 total
+2025-05-31 15:59:45,945 - INFO - Bounding box adicionado: 6 total
+2025-05-31 15:59:48,490 - INFO - Anotação salva: 6 bounding boxes
+2025-05-31 15:59:48,490 - INFO - Imagem 30/30: /107/3.jpg
+2025-05-31 15:59:48,698 - INFO - Imagem redimensionada para 600x800
+2025-05-31 15:59:51,611 - INFO - Bounding box adicionado: 1 total
+2025-05-31 15:59:52,260 - INFO - Anotação salva: 1 bounding boxes
+2025-05-31 15:59:52,262 - INFO - Progresso salvo: 30 anotações
+2025-05-31 15:59:52,273 - INFO - Anotação concluída! Total: 30 imagens anotadas
+2025-05-31 15:59:52,273 - INFO - Criando dataset YOLO...
+2025-05-31 15:59:52,275 - INFO - Processando train: 16 imagens
+2025-05-31 15:59:52,480 - INFO - Processando val: 3 imagens
+2025-05-31 15:59:52,494 - INFO - Processando test: 4 imagens
+2025-05-31 15:59:52,540 - INFO - Dataset YOLO criado:
+2025-05-31 15:59:52,541 - INFO - - Treino: 16 imagens
+2025-05-31 15:59:52,541 - INFO - - Validação: 3 imagens
+2025-05-31 15:59:52,541 - INFO - - Teste: 4 imagens
+2025-05-31 15:59:52,542 - INFO - - Configuração: manual_annotations\yolo_dataset\acne_config.yaml
+2025-05-31 15:59:52,542 - INFO - ✅ Etapa 1 concluída:
+2025-05-31 15:59:52,542 - INFO -    - 30 imagens processadas
+2025-05-31 15:59:52,542 - INFO -    - 23 imagens com anotações
+2025-05-31 15:59:52,543 - INFO -    - 62 acnes marcadas
+2025-05-31 15:59:52,543 - INFO -    - Dataset YOLO criado: manual_annotations\yolo_dataset\acne_config.yaml
+2025-05-31 15:59:52,543 - INFO - === ETAPA 2: TREINAMENTO DO MODELO ===
+2025-05-31 15:59:56,478 - INFO - Usando device: cpu
+2025-05-31 15:59:56,478 - INFO - Iniciando treinamento com 100 épocas...
+2025-05-31 15:59:56,479 - INFO - Device: cpu
+2025-05-31 15:59:56,479 - INFO - Iniciando treinamento do YOLOv8 com anotações manuais...
+2025-05-31 15:59:56,511 - INFO - Iniciando treinamento com 100 épocas...
+2025-05-31 16:12:24,035 - INFO - Treinamento concluído com sucesso!
+2025-05-31 16:12:24,036 - INFO - Métricas finais: {'mAP50': 0.19042006049059296, 'mAP50-95': 0.07409577937868804, 'precision': 0.21743050778286488, 'recall': 0.3333333333333333}
+2025-05-31 16:12:24,068 - INFO - Melhor modelo carregado: trained_model\acne_model\weights\best.pt
+2025-05-31 16:12:24,077 - INFO - Avaliando modelo...
+2025-05-31 16:12:29,496 - INFO - Métricas de avaliação:
+2025-05-31 16:12:29,496 - INFO - - mAP50: 0.2148
+2025-05-31 16:12:29,497 - INFO - - mAP50-95: 0.0741
+2025-05-31 16:12:29,497 - INFO - - precision: 0.2631
+2025-05-31 16:12:29,497 - INFO - - recall: 0.3333
+2025-05-31 16:12:29,497 - INFO - - f1_score: 0.2941
+2025-05-31 16:12:29,498 - INFO - ✅ Etapa 2 concluída:
+2025-05-31 16:12:29,498 - INFO -    - Modelo salvo: trained_model\acne_model\weights\best.pt
+2025-05-31 16:12:29,499 - INFO -    - mAP@0.5: 0.2148
+2025-05-31 16:12:29,499 - INFO -    - Precision: 0.2631
+2025-05-31 16:12:29,499 - INFO -    - Recall: 0.3333
+2025-05-31 16:12:29,499 - INFO - === ETAPA 3: APLICAÇÃO DO MODELO ===
+2025-05-31 16:12:29,529 - INFO - Carregando modelo: trained_model/acne_model/weights/best.pt
+2025-05-31 16:12:29,707 - INFO - Modelo carregado. 687 imagens para processar
+2025-05-31 16:12:29,707 - INFO - Processando 687 imagens...
+2025-05-31 16:12:29,707 - INFO - Threshold de confiança: 0.1
+2025-05-31 16:12:29,707 - INFO - Processando imagens com threshold de confiança: 0.1
+2025-05-31 16:22:43,210 - INFO - === RESULTADOS DA DETECÇÃO ===
+2025-05-31 16:22:43,210 - INFO - Total de imagens processadas: 687
+2025-05-31 16:22:43,211 - INFO - Imagens com acnes: 672
+2025-05-31 16:22:43,211 - INFO - Imagens sem acnes: 15
+2025-05-31 16:22:43,211 - INFO - Total de detecções: 8176
+2025-05-31 16:22:43,211 - INFO - Taxa de detecção: 97.8%
+2025-05-31 16:22:43,211 - INFO - Média de acnes por imagem: 11.90
+2025-05-31 16:22:43,212 - INFO - Criando relatório resumido...
+2025-05-31 16:22:45,803 - INFO - Relatório salvo em: detection_results\detection_report.html
+2025-05-31 16:22:45,803 - INFO - ✅ Etapa 3 concluída:
+2025-05-31 16:22:45,804 - INFO -    - 687 imagens processadas
+2025-05-31 16:22:45,804 - INFO -    - 672 imagens com acnes detectadas
+2025-05-31 16:22:45,804 - INFO -    - 8176 acnes encontradas
+2025-05-31 16:22:45,804 - INFO -    - Taxa de detecção: 97.8%
+2025-05-31 16:22:45,805 - INFO -    - Relatório: detection_results/detection_report.html
+2025-05-31 16:22:45,809 - INFO - === RESUMO FINAL ===
+2025-05-31 16:22:45,809 - INFO - 📁 Arquivos e diretórios gerados:
+2025-05-31 16:22:45,809 - INFO -    ✅ Anotações manuais: manual_annotations/annotations.json
+2025-05-31 16:22:45,810 - INFO -    ✅ Dataset YOLO: manual_annotations/yolo_dataset/acne_config.yaml
+2025-05-31 16:22:45,810 - INFO -    ✅ Modelo treinado: trained_model/acne_model/weights/best.pt
+2025-05-31 16:22:45,810 - INFO -    ✅ Imagens com detecções: detection_results/images_with_detections/
+2025-05-31 16:22:45,811 - INFO -    ✅ Imagens sem detecções: detection_results/images_without_detections/
+2025-05-31 16:22:45,811 - INFO -    ✅ Crops das acnes: detection_results/detection_crops/
+2025-05-31 16:22:45,811 - INFO -    ✅ Relatório final: detection_results/detection_report.html
+2025-05-31 16:22:45,854 - INFO - 
+📊 Estatísticas finais:
+2025-05-31 16:22:45,854 - INFO -    - Total de imagens processadas: 687
+2025-05-31 16:22:45,854 - INFO -    - Imagens com acnes: 672
+2025-05-31 16:22:45,855 - INFO -    - Total de acnes detectadas: 8176
+2025-05-31 16:22:45,855 - INFO -    - Taxa de detecção: 97.8%
+2025-05-31 16:22:45,855 - INFO - 
+🎯 MISSÃO CUMPRIDA!
+2025-05-31 16:22:45,856 - INFO -    Abra o relatório: X:\Desafio inovia\detection_results\detection_report.html
+2025-05-31 16:22:45,856 - INFO -    - Imagens com bounding boxes estão em: detection_results/images_with_detections/
+2025-05-31 16:22:45,856 - INFO -    - Crops individuais das acnes: detection_results/detection_crops/

@@ -1,0 +1,67 @@
+2025-05-31 15:28:27,648 - INFO - Criando anota��es autom�ticas...
+2025-05-31 15:28:27,648 - INFO - Iniciando cria��o de anota��es autom�ticas...
+2025-05-31 15:28:31,341 - INFO - Anota��es criadas:
+2025-05-31 15:28:31,341 - INFO - - Total de imagens processadas: 10
+2025-05-31 15:28:31,341 - INFO - - Imagens com acnes detectadas: 8
+2025-05-31 15:28:31,342 - INFO - - Total de acnes detectadas: 57
+2025-05-31 15:28:31,342 - INFO - - M�dia de acnes por imagem: 5.70
+2025-05-31 15:28:31,342 - INFO - Dividindo dataset...
+2025-05-31 15:28:31,342 - INFO - Dividindo dataset...
+2025-05-31 15:29:57,541 - INFO - Verificando pré-requisitos...
+2025-05-31 15:29:57,542 - INFO - OK: Todos os pré-requisitos verificados
+2025-05-31 15:29:57,542 - INFO - ETAPA 1: Preparação de dados e anotação automática
+2025-05-31 15:30:03,883 - INFO - Criando anotações automáticas...
+2025-05-31 15:30:03,883 - INFO - Iniciando criação de anotações automáticas...
+2025-05-31 15:30:04,703 - INFO - Anotações criadas:
+2025-05-31 15:30:04,703 - INFO - - Total de imagens processadas: 10
+2025-05-31 15:30:04,704 - INFO - - Imagens com acnes detectadas: 8
+2025-05-31 15:30:04,704 - INFO - - Total de acnes detectadas: 57
+2025-05-31 15:30:04,704 - INFO - - Média de acnes por imagem: 5.70
+2025-05-31 15:30:04,705 - INFO - Dividindo dataset...
+2025-05-31 15:30:04,705 - INFO - Dividindo dataset...
+2025-05-31 15:30:04,706 - WARNING - Dados insuficientes para estratificação, usando divisão aleatória
+2025-05-31 15:30:04,792 - INFO - Dataset dividido:
+2025-05-31 15:30:04,792 - INFO - - Treino: 5 imagens
+2025-05-31 15:30:04,792 - INFO - - Validação: 1 imagens
+2025-05-31 15:30:04,793 - INFO - - Teste: 2 imagens
+2025-05-31 15:30:04,793 - INFO - - Divisão aleatória aplicada
+2025-05-31 15:30:04,793 - INFO - Criando configuração YOLO...
+2025-05-31 15:30:04,794 - INFO - Configuração YOLO salva em: acne_detection_output\dataset\acne_config.yaml
+2025-05-31 15:30:04,794 - INFO - Gerando visualizações...
+2025-05-31 15:30:24,583 - INFO - Visualização salva em: acne_detection_output\results\sample_annotations.png
+2025-05-31 15:30:24,584 - INFO - OK: Etapa 1 concluída em 27.04 segundos
+2025-05-31 15:30:24,585 - INFO - ETAPA 2: Treinamento do modelo YOLOv8
+2025-05-31 15:30:24,976 - INFO - Usando device: cpu
+2025-05-31 15:30:24,976 - INFO - Iniciando treinamento com 2 épocas...
+2025-05-31 15:30:24,977 - INFO - Iniciando treinamento do YOLOv8...
+2025-05-31 15:30:37,800 - INFO - Treinamento concluído com sucesso!
+2025-05-31 15:30:37,800 - INFO - Métricas finais: {'mAP50': 0.0, 'mAP50-95': 0.0, 'precision': 0.0, 'recall': 0.0}
+2025-05-31 15:30:37,825 - INFO - Melhor modelo carregado: acne_detection_output\models\acne_detection\weights\best.pt
+2025-05-31 15:30:37,828 - INFO - Avaliando modelo...
+2025-05-31 15:30:37,828 - INFO - Iniciando avaliação do modelo...
+2025-05-31 15:30:41,740 - INFO - Métricas de avaliação:
+2025-05-31 15:30:41,741 - INFO - - mAP50: 0.0000
+2025-05-31 15:30:41,741 - INFO - - mAP50-95: 0.0000
+2025-05-31 15:30:41,741 - INFO - - precision: 0.0000
+2025-05-31 15:30:41,741 - INFO - - recall: 0.0000
+2025-05-31 15:30:41,742 - INFO - - f1_score: 0.0000
+2025-05-31 15:30:41,742 - INFO - Métricas de avaliação:
+2025-05-31 15:30:41,742 - INFO -    mAP50: 0.0000
+2025-05-31 15:30:41,743 - INFO -    mAP50-95: 0.0000
+2025-05-31 15:30:41,743 - INFO -    precision: 0.0000
+2025-05-31 15:30:41,743 - INFO -    recall: 0.0000
+2025-05-31 15:30:41,743 - INFO -    f1_score: 0.0000
+2025-05-31 15:30:41,743 - INFO - Fazendo predições em amostras...
+2025-05-31 15:30:41,744 - INFO - Fazendo predições em 10 imagens de exemplo...
+2025-05-31 15:30:41,951 - INFO - Predições concluídas:
+2025-05-31 15:30:41,951 - INFO - - Imagens processadas: 2
+2025-05-31 15:30:41,952 - INFO - - Total de detecções: 0
+2025-05-31 15:30:41,952 - INFO - - Média de detecções por imagem: 0.00
+2025-05-31 15:30:41,952 - INFO - Gerando visualizações das predições...
+2025-05-31 15:30:52,909 - INFO - Visualização salva em: acne_detection_output\results\predictions_visualization.png
+2025-05-31 15:30:52,911 - INFO - Gerando plots de treinamento...
+2025-05-31 15:30:55,582 - INFO - Plots de treinamento salvos em: acne_detection_output\results\training_plots.png
+2025-05-31 15:30:55,582 - INFO - OK: Etapa 2 concluída em 31.00 segundos
+2025-05-31 15:30:55,583 - INFO - ETAPA 3: Análise completa dos resultados
+2025-05-31 15:30:55,590 - ERROR - ERRO: Erro na análise de resultados: No module named 'plotly'
+2025-05-31 15:30:55,591 - ERROR - Pipeline interrompido na etapa de análise

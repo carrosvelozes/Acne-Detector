@@ -1,4 +1,4 @@
-# 🧠 Sistema de Detecção Automática de Acnes com YOLOv8
+# 🧠 Sistema de Detecção Automática de Acnes
 
 ## 📌 Descrição do Problema
 
@@ -112,18 +112,3 @@ Resultados salvos em:
 - **70%**: Treino (aprender padrões)
 - **15%**: Validação (ajustar modelo durante treinamento)
 - **15%**: Teste (avaliar resultado final)
-
-> Tudo isso é feito automaticamente pelo sistema após a anotação!
-
----
-
-## ✅ Diferenciais do Projeto
-
-- **Pipeline completo**: Do começo ao fim — desde anotar até gerar relatórios
-- **Funciona com poucas imagens anotadas**: Ideal para projetos com recursos limitados
-- **Reprodutível**: Mesmos resultados sempre (seeds fixas, versões controladas)
-- **Escalável**: Pode ser expandido para milhares de imagens
-
----
-
-Se quiser, posso te ajudar a formatar esse README em um site bonito, ou ainda montar uma página de documentação completa. Deseja isso?
